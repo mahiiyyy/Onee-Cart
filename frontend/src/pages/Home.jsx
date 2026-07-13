@@ -6,7 +6,6 @@ import LatestCollection from "../component/LatestCollection";
 import BestSeller from "../component/BestSeller";
 
 function Home() {
-
   const heroData = [
     {
       text1: "30% OFF Limited Offer",
@@ -30,29 +29,41 @@ function Home() {
 
   return (
     <>
-
-      <div className="w-screen h-screen relative overflow-x-hidden">
-
+      <section
+        className="
+          relative
+          w-full
+          min-h-screen
+          lg:h-screen
+          overflow-hidden
+        "
+      >
         <Background heroCount={heroCount} />
 
-        <div className="absolute inset-0 z-10">
-
+        <div
+          className="
+            relative
+            z-10
+            w-full
+            h-full
+            flex
+            items-center
+          "
+        >
           <Hero
             heroData={heroData[heroCount]}
             heroCount={heroCount}
             setHeroCount={setHeroCount}
           />
-
         </div>
-
-      </div>
+      </section>
 
       <LatestCollection />
 
       <BestSeller />
-
     </>
   );
 }
 
+export default Home;
 export default Home;
