@@ -3,7 +3,7 @@ import axios from "axios";
 import { Send, Mic, X } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
-import ai from "../assets/Ai.png";
+import ai from "../assets/ai.png";
 import openSound from "../assets/openSound.wav";
 
 import ProductCard from "./ProductCard";
