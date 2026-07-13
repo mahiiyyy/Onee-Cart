@@ -6,7 +6,7 @@ const Orders = () => {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const serverUrl = "https://onee-cart-backend.onrender.com";
+  const serverUrl = "https://onee-cart-x2ok.onrender.com";
 
   // ===========================================
   // FETCH ORDERS
