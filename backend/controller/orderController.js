@@ -1,4 +1,4 @@
-import Order from "../model/orderModel.js";
+import Order from "../model/OrderModel.js";
 import User from "../model/userModel.js";
 import Razorpay from "razorpay";
 import crypto from "crypto";
