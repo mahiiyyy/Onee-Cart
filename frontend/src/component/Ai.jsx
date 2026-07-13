@@ -12,7 +12,7 @@ import { shopDataContext } from "../context/ShopContext";
 
 function Ai() {
 
-  const serverUrl = "http://localhost:8000";
+  const serverUrl = "https://onee-cart-x2ok.onrender.com";
 
   const navigate = useNavigate();
 
