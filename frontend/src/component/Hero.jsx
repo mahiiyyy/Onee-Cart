@@ -31,22 +31,23 @@ function Hero({ heroData, heroCount, setHeroCount }) {
 
         {/* subtitle */}
 
-       <h2
-className="
-text-3xl
-sm:text-4xl
-md:text-5xl
-lg:text-[58px]
-italic
-font-light
-mt-3
-bg-gradient-to-r
-from-[#ff008c]
-to-[#4f8cff]
-bg-clip-text
-text-transparent"
+     <h2
+  className="
+  text-3xl
+  sm:text-4xl
+  md:text-5xl
+  lg:text-[58px]
+  italic
+  font-light
+  mt-3
+  bg-gradient-to-r
+  from-[#ff008c]
+  to-[#4f8cff]
+  bg-clip-text
+  text-transparent"
 >
-
+  Style that speaks
+</h2>
         {/* description */}
 
        <p className="mt-6 text-gray-500 text-base sm:text-lg max-w-xl">
@@ -96,14 +97,14 @@ gap-6
             </div>
 
             <div>
-            <h2 className="text-2xl lg:text-3xl font-bold">
-              <p className="text-gray-500">
-                Happy Customers
-              </p>
-            </div>
+  <h2 className="text-2xl lg:text-3xl font-bold">
+    10K+
+  </h2>
 
-          </div>
-
+  <p className="text-gray-500">
+    Happy Customers
+  </p>
+</div>
           <div className="flex items-center gap-3">
 
             <div className="w-14 h-14 rounded-full bg-[#4f8cff] text-white flex justify-center items-center">
