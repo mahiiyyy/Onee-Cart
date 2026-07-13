@@ -83,8 +83,8 @@ export const login = async (req, res) => {
 
     res.cookie("userToken", token, {
       httpOnly: true,
-      secure: false,
-      sameSite: "Strict",
+      secure: true,
+      sameSite: "none",
       maxAge: 7 * 24 * 60 * 60 * 1000,
     });
 
@@ -170,8 +170,8 @@ export const googleLogin = async (req, res) => {
 
     res.cookie("userToken", token, {
       httpOnly: true,
-      secure: false,
-      sameSite: "Strict",
+      secure: true,
+      sameSite: "none",
       maxAge: 7 * 24 * 60 * 60 * 1000,
     });
 
@@ -198,7 +198,7 @@ export const adminLogin = async (req, res) => {
 
       res.cookie("adminToken", token, {
         httpOnly: true,
-        secure: false,
+        secure: true,
         sameSite: "Lax",
         maxAge: 7 * 24 * 60 * 60 * 1000,
       });
