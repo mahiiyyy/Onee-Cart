@@ -20,8 +20,8 @@ const port = process.env.PORT || 6000;
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-  origin:["http://localhost:5173" ,
-     "http://localhost:5174"],
+  origin:["https://onee-cart-frontend.onrender.com" ,
+     "https://onee-cart-admin.onrender.com"],
   credentials:true
 }))
 
