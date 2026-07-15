@@ -6,7 +6,7 @@ export const userDataContext = createContext();
 
 const UserContext = ({ children }) => {
 
-  const [userData, setUserData] = useState("");
+ const [userData, setUserData] = useState(null);
 
   const { serverUrl } = useContext(authDataContext);
 
