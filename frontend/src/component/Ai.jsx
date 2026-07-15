@@ -14,6 +14,7 @@ function Ai() {
 
   const serverUrl = "https://onee-cart-x2ok.onrender.com";
 
+
   const navigate = useNavigate();
 
   const { addToCart } = useContext(shopDataContext);
