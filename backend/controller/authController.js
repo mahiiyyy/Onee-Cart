@@ -137,18 +137,28 @@ export const getCurrentUser = async (req, res) => {
 
 export const logOut = async (req, res) => {
   try {
-    res.clearCookie("userToken");
-res.clearCookie("adminToken");
+    res.clearCookie("userToken", {
+      httpOnly: true,
+      secure: true,
+      sameSite: "none",
+    });
+
+    res.clearCookie("adminToken", {
+      httpOnly: true,
+      secure: true,
+      sameSite: "none",
+    });
 
     return res.status(200).json({
-      message: "logOut successful",
+      success: true,
+      message: "Logout successful",
     });
 
   } catch (error) {
-    console.log("logOut error", error);
+    console.log("logout error", error);
 
     return res.status(500).json({
-      message: `logOut error ${error}`,
+      message: error.message,
     });
   }
 };
