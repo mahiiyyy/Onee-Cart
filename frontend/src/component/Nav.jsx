@@ -22,29 +22,34 @@ const Nav = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
 
-  let { getCurrentUser, userData } = useContext(userDataContext);
+ let {
+  getCurrentUser,
+  userData,
+  setUserData,
+} = useContext(userDataContext);
+  
   let { serverUrl } = useContext(authDataContext);
 const { getCartCount } = useContext(shopDataContext);
   const handleLogout = async () => {
+  try {
+    const result = await axios.get(
+      serverUrl + "/api/auth/logout",
+      {
+        withCredentials: true,
+      }
+    );
 
-    try {
+    console.log(result.data);
 
-      const result = await axios.get(
-        serverUrl + "/api/auth/logout",
-        { withCredentials: true }
-      );
+    // Clear user immediately
+    setUserData(null);
 
-      console.log(result.data);
+    navigate("/login");
 
-      await getCurrentUser();
-
-    } catch (error) {
-
-      console.log(error);
-
-    }
-
-  };
+  } catch (error) {
+    console.log(error);
+  }
+};
 
   return (
 
@@ -181,15 +186,12 @@ const { getCartCount } = useContext(shopDataContext);
 
                     <p
                       className="p-2 hover:bg-gray-100 rounded cursor-pointer text-red-500"
-                      onClick={async () => {
 
-                        await handleLogout();
-
-                        navigate("/login");
-
-                        setShowMenu(false);
-
-                      }}
+                      
+                    onClick={async () => {
+  await handleLogout();
+  setShowMenu(false);
+}}
                     >
                       Logout
                     </p>
@@ -282,13 +284,9 @@ const { getCartCount } = useContext(shopDataContext);
 
                     <p
                       className="text-red-500"
-                      onClick={async () => {
-
-                        await handleLogout();
-
-                        navigate("/login");
-
-                      }}
+                     onClick={async () => {
+  await handleLogout();
+}}
                     >
                       Logout
                     </p>
