@@ -412,7 +412,7 @@ OneeCart
 
 ## 🛍 Collections
 
-![Collections](assets/screenshots/collections.png)
+![Collections](assets/screenshots/collection.png)
 
 ---
 
