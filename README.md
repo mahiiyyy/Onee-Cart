@@ -16,7 +16,7 @@ Secure • Fast • Responsive • Scalable • Production Ready
 
 <p align="center">
 
-<img src="assets/logo.png" width="140"/>
+<img src="assets/logoo.png" width="140"/>
 
 </p>
 
@@ -406,79 +406,61 @@ OneeCart
 
 ## 🏠 Home Page
 
-![Home](assets/screenshots/home.png)
+![Home](assets/home.png)
 
 ---
 
 ## 🛍 Collections
 
-![Collections](assets/screenshots/collection.png)
-
----
-
-## ⭐ Best Sellers
-
-![BestSeller](assets/screenshots/bestseller.png)
+![Collections](assets/collection.png)
 
 ---
 
 ## 👕 Product Details
 
-![Product](assets/screenshots/product.png)
+![Product](assets/product.png)
 
 ---
 
 ## 🛒 Shopping Cart
 
-![Cart](assets/screenshots/cart.png)
+![Cart](assets/cart.png)
 
 ---
 
 ## 💳 Checkout
 
-![Checkout](assets/screenshots/checkout.png)
+![Checkout](assets/checkout.png)
 
 ---
 
 ## 🔐 Login
 
-![Login](assets/screenshots/login.png)
+![Login](assets/login.png)
 
 ---
 
 ## 📝 Signup
 
-![Signup](assets/screenshots/signup.png)
-
----
-
-## 📦 My Orders
-
-![Orders](assets/screenshots/orders.png)
+![Signup](assets/signup.png)
 
 ---
 
 ## 👨‍💼 Admin Dashboard
 
-![Dashboard](assets/screenshots/dashboard.png)
+![Dashboard](assets/dashboard.png)
 
 ---
 
 ## ➕ Add Product
 
-![Add Product](assets/screenshots/addproduct.png)
+![Add Product](assets/addproduct.png)
 
 ---
 
 ## 📦 Product List
 
-![Products](assets/screenshots/productlist.png)
-
----
-
-## 🚚 Manage Orders
-
-![Admin Orders](assets/screenshots/adminorders.png)
+![Products](assets/productlist.png)
 
 ---
 
@@ -582,28 +564,21 @@ FIREBASE_API_KEY=your_firebase_key
 
 # 📁 Assets Folder
 
+The screenshots displayed above are stored directly in the `assets/` directory:
+
 ```text
 assets/
-
-├── banner.png
-
-├── logo.png
-
-└── screenshots
-
-      ├── home.png
-      ├── collections.png
-      ├── bestseller.png
-      ├── product.png
-      ├── cart.png
-      ├── checkout.png
-      ├── login.png
-      ├── signup.png
-      ├── orders.png
-      ├── dashboard.png
-      ├── addproduct.png
-      ├── productlist.png
-      └── adminorders.png
+├── addproduct.png
+├── cart.png
+├── checkout.png
+├── collection.png
+├── dashboard.png
+├── home.png
+├── login.png
+├── logoo.png
+├── product.png
+├── productlist.png
+└── signup.png
 ```
 
 ---
