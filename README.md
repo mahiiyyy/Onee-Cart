@@ -406,105 +406,79 @@ OneeCart
 
 ## 🏠 Home Page
 
-```md
 ![Home](assets/screenshots/home.png)
-```
 
 ---
 
 ## 🛍 Collections
 
-```md
 ![Collections](assets/screenshots/collections.png)
-```
 
 ---
 
 ## ⭐ Best Sellers
 
-```md
 ![BestSeller](assets/screenshots/bestseller.png)
-```
 
 ---
 
 ## 👕 Product Details
 
-```md
 ![Product](assets/screenshots/product.png)
-```
 
 ---
 
 ## 🛒 Shopping Cart
 
-```md
 ![Cart](assets/screenshots/cart.png)
-```
 
 ---
 
 ## 💳 Checkout
 
-```md
 ![Checkout](assets/screenshots/checkout.png)
-```
 
 ---
 
 ## 🔐 Login
 
-```md
 ![Login](assets/screenshots/login.png)
-```
 
 ---
 
 ## 📝 Signup
 
-```md
 ![Signup](assets/screenshots/signup.png)
-```
 
 ---
 
 ## 📦 My Orders
 
-```md
 ![Orders](assets/screenshots/orders.png)
-```
 
 ---
 
 ## 👨‍💼 Admin Dashboard
 
-```md
 ![Dashboard](assets/screenshots/dashboard.png)
-```
 
 ---
 
 ## ➕ Add Product
 
-```md
 ![Add Product](assets/screenshots/addproduct.png)
-```
 
 ---
 
 ## 📦 Product List
 
-```md
 ![Products](assets/screenshots/productlist.png)
-```
 
 ---
 
 ## 🚚 Manage Orders
 
-```md
 ![Admin Orders](assets/screenshots/adminorders.png)
-```
 
 ---
 
@@ -1341,7 +1315,6 @@ If you found this project helpful:
 
 > Replace **YOUR_USERNAME** with **mahiiyyy**.
 
-```md
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mahiiyyy&show_icons=true&theme=tokyonight)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mahiiyyy&layout=compact&theme=tokyonight)
@@ -1349,7 +1322,6 @@ If you found this project helpful:
 ![GitHub Streak](https://streak-stats.demolab.com?user=mahiiyyy&theme=tokyonight)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=mahiiyyy&color=blue)
-```
 
 ---
 
